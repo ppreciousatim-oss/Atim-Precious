@@ -1,12 +1,12 @@
-body{
+/* body{
     font-family: Arial, sans-serif;
     background-color:darksalmon;
     margin: 0;
     padding: 0;
-}
+} */
 /* center section */
 .profile {
-    background-color: lightpink;
+    background-color: gray;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 15px;
@@ -16,7 +16,7 @@ body{
 
 /* card  */
 .profile-card{
-    background-color:pink;
+    background-color:lightgray;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     padding: 20px;
@@ -118,3 +118,122 @@ h3{
     color: darkcyan;
 }
 
+
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* colors */
+:root{
+    --coffee: #8b5e3c;
+    --coffee-dark:#5a3b23;
+    --coffee-light:#b07a50;
+}
+
+.container{
+    padding: 20px 0;
+    margin: 10px;
+    border: #4a2f1d;
+}
+/* navbar */
+.nav{
+    background: linear-gradient(90deg,var(--coffee-dark), var(--coffee));
+}
+
+/* hero */
+.hero-section{
+    background: linear-gradient(rgba(90,59,35,.9), rgba(90,59,35,.9));
+}
+.hero-section h1{
+    padding: 10px;
+    font-family: catamaran;
+    font-size: 30px;
+    line-height: 50px;
+    font-weight: 300;
+    color: brown;
+    text-align: center;
+    text-shadow: 2px 2px 8px #111;
+}
+.hero-text{
+    padding: 10px;
+    font-family: cormorant Garamond;
+    font-size: 28px;
+    font-weight: 100;
+    color: black;
+    font-style: italic;
+    line-height: 30px;
+}
+
+.hero-title{
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+.hero-img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50px;
+    border: 8px solid rgba(255,255,255,.2);
+    text-align: right;
+
+}
+/* button */
+.btn-coffee{
+    background: var(--coffee);
+    color: beige;
+    border-radius: 8px;
+}
+.btn-coffee:hover {
+    background: var(--coffee-light);
+color: beige;
+}
+.section-title{
+    font-weight: 700;
+    color: var(--coffee-dark);
+}
+/* projects */
+.project-card {
+    border: brown;
+    box-shadow: 0 10px 25px rgba(0,0,0,.08);
+    border-radius: 12px;
+}
+.black-container{
+    background-color: #b07a50;
+}
+/* contact */
+.contact-section{
+    background: #ffffff;
+    background: linear-gradient(90deg, var(--coffee-dark), var(--coffee));
+    padding: 60px;
+    
+}
+.contact-form{
+    max-width: 450px;
+    margin: auto;
+    background-color:  #b07a50;;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.footer{
+    background: #4a2f1d;
+    padding: 40px 40px;
+}
+.social-icons i{
+    margin: 0 8px;
+    font-size: 20px;
+    cursor: pointer;
+    color: crimson;
+}
+.card{
+    width: 10cm;
+    height: 10cm;
+    display: inline-flex;
+    flex-direction: row;
+     margin: 20px;
+    
+
+}
